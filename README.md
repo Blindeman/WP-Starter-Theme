@@ -13,4 +13,3 @@ Just like with `_s` or `BlankSlate`, if you're using `Beachfire` to create your 
 
 ## License
 This starter theme is licensed under an MIT license.
-Please be generous in life, with yourself, and your work.
