@@ -1,0 +1,82 @@
+/**
+ * Theme Name: Beachfire
+ * Theme URI: https://blindeman.github.io/wp-starter-theme-beachfire/
+ * Github Theme URI: https://github.com/Blindeman/wp-starter-theme-beachfire
+ * Author: Naomi Blindeman
+ * Author URI: https://blindemanwebsites.com
+ * Description: Lightweight Flexible Starter theme.
+ * Version: 0.0.1
+ * License: GPLv3 license
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain: beachfire
+ * Tags: custom-menu, featured-images, threaded-comments, translation-ready
+ * Domain Path: /languages
+ */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com */
+/*! main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+
+html{line-height:1.15;-webkit-text-size-adjust:100%;}
+body{margin:0;}
+main{display:block;}
+h1{font-size:2em;margin:0.67em 0;}
+hr{box-sizing:content-box;height:0;overflow:visible;}
+a{background-color:transparent;}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted;}
+b,strong{font-weight:700;}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}
+small{font-size:80%;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sub{bottom:-0.25em;}
+sup{top:-0.5em;}
+::-moz-selection{background:#b3d4fc;text-shadow:none;}
+::selection{background:#b3d4fc;text-shadow:none;}
+img{border-style:none;}
+button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0;}
+button,input{overflow:visible;}
+button,select{text-transform:none;}
+button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button;}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0;}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText;}
+fieldset{padding:0.35em 0.75em 0.625em;}
+legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}
+progress{vertical-align:baseline;}textarea{overflow:auto;}
+[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0;}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto;}
+[type="search"]{-webkit-appearance:textfield;outline-offset:-2px;}
+[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+::-webkit-file-upload-button{-webkit-appearance: button;font: inherit;}
+details{display:block;}
+summary{display:list-item;}
+template{display:none;}
+[hidden]{display:none;}
+audio,canvas,iframe,img,svg,video{vertical-align:middle;}
+.browserupgrade{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0;}
+/* Some Standard WordPress Styles */
+.wp-caption{}
+.wp-caption-text{}
+.gallery-caption{}
+.alignright{}
+.alignleft{}
+.aligncenter{}
+/* Author's custom styles */
+
+
+/* Helper classes */
+.screen-reader-text{border:0;clip:rect(0, 0, 0, 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px;}
+.screen-reader-text.focusable:active,.screen-reader-text.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;white-space:inherit;width:auto;}
+.clearfix:before,.clearfix:after{content:" ";display:table;}
+.clearfix:after{clear:both;}
+/* Media Queries */
+@media print{*,*:before,*:after{background:transparent !important;color:#000 !important;-webkit-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+abbr[title]:after{content:" (" attr(title) ")";}
+a[href^="#"]:after,a[href^="javascript:"]:after{content:"";}
+pre{white-space:pre-wrap !important;}
+pre,blockquote{border:1px solid #999;page-break-inside:avoid;}
+thead{display:table-header-group;}
+tr,img{page-break-inside:avoid;}
+p,h2,h3{orphans:3;widows:3;}
+h2,h3{page-break-after: avoid;}}
