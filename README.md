@@ -12,4 +12,4 @@ More recently, I used `BlankSlate` and I liked it a lot. So lean, so clean, so b
 Just like with `_s` or `BlankSlate`, if you're using `Beachfire` to create your own theme , open up all files and do a "Find and Replace All in All Files" on the word "beachfire" with your own slug and prefix.
 
 ## License
-This starter theme is licensed under an MIT license.
+This starter theme is licensed under an [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
