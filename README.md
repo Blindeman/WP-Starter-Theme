@@ -1,5 +1,5 @@
 # WP Starter Theme: Beachfire
-Lean and flexible starter theme for WordPress, based on / inspired by `H5BP`, `_s` and `BlankSlate`.
+Lean and flexible starter theme for WordPress, based on / inspired by [`H5BP`](https://github.com/h5bp/html5-boilerplate/tree/v7.2.0), [`_s`](https://github.com/Automattic/_s) and [`BlankSlate`](https://github.com/tidythemes/blankslate).
 
 ## Credit and Reason
 Several years ago, I used to make themes from scratch based on `H5BP`. Those themes have proven to have the most longevity of any theme I've ever worked with and have needed very little maintenance unless clients wanted aesthetic changes. This is partly of course because they were made to fit the needs of only that client and there is nothing extraneous in them. 
