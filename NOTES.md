@@ -8,7 +8,7 @@ The version of h5bp I downloaded is html5-boilerplate_v7.2.0 on 18 September 201
 * Removed. This should not be part of the theme, in case people change themes. Presumably they'll want to keep tracking visitors.
 
 ## JavaScript
-* If you want to load any JS beyond Modernizer that's on you. You decide what you want to enqueue, and please do it in functions.php and place files in a js-folder.
+* If you want to load any JS beyond Modernizer that's on you. You decide what you want to enqueue, and please do it in functions.php and place files in the js-folder.
 
 ## 404
 * Removed style from the head.
@@ -18,6 +18,10 @@ The version of h5bp I downloaded is html5-boilerplate_v7.2.0 on 18 September 201
 * Removed <meta name="theme-color" content="#fafafa"> from the head section.
 
 ## CSS
-* Moved the styles I wanted to keep from main.css to style.css, mainly: selection (bc i like it so much), styles for screen readers, browserupgrade alert and clearfix
+* Moved the styles I wanted to keep from main.css to style.css, mainly: selection (bc i like it so much), styles for screen readers, browserupgrade alert, clearfix and print styles.
 * Moved styles from normalize.css to style.css
-* Removed most of the comments in the stylesheets. I like them for reading and learning but I find they distract me from the styles when I'm trying to develop a site. The linkies to the originals are at the top of style.css
+* Removed comments from the stylesheets. I like them for reading and learning but I find they distract me from the styles when I'm trying to develop a site. The linkies to the originals are at the top of style.css in case you want to read more
+
+## Translating this theme
+* Functions used (You might need them for poedit): esc_html__()
+* Text Domain 'beachfire' should have been replaced with whatever your slug is
