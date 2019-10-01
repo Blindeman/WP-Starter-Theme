@@ -9,7 +9,8 @@ It was time consuming to make them, so I switched to `_s` as a starter theme. Fo
 More recently, I used `BlankSlate` and I liked it a lot. So lean, so clean, so beautiful! I loved it. I just didn’t find their templating system as flexible, so I decided to go back to where I started and make my own.
 
 ## Instructions
-Just like with `_s` or `BlankSlate`, if you're using `Beachfire` to create your own theme , open up all files and do a "Find and Replace All in All Files" on the word "beachfire" with your own slug and prefix.
+Just like with `_s` or `BlankSlate`, if you're using `Beachfire` to create your own theme, open up all files and do a "Find and Replace All in All Files" on the word "beachfire" with your own slug and prefix.
+Also see NOTES.md!
 
 ## License
 This starter theme is licensed under an [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
