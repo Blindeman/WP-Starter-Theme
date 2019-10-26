@@ -11,6 +11,12 @@
         <!--[if IE]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
+        <?php //hook for plugins, compatible with WP < 5.2
+        if( function_exists( 'wp_body_open' ) ){
+            wp_body_open();
+        } else {
+            do_action( 'wp_body_open' );
+        } ?>
         <div id="wrapper">
             <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'beachfire' ); ?></a>
             <header id="masthead" class="site-header">

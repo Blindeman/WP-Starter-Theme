@@ -1,13 +1,11 @@
 <?php get_header(); ?>
-    
+
     <main id="content">
-        <?php if( have_posts() ) :
-            if( is_home() && !is_front_page() ) : ?>
-                <header class="blog-header">
-                    <h1 class="page-title"><?php single_post_title(); ?></h1>
-                </header><!-- .blog-header -->
-            <?php endif;
-            while( have_posts() ) :
+        <?php if( have_posts() ) : ?>
+            <header class="search-header">
+                <h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'beachfire' ), get_search_query() ); ?></h1>
+            </header><!-- .search-header -->
+            <?php while( have_posts() ) :
                 the_post();
                 get_template_part( 'template-parts/content', get_post_type() );
             endwhile;

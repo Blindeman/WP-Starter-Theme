@@ -1,13 +1,18 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
-</body>
-</html>
-<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
+<?php get_header(); ?>
+
+    <main id="content">
+        <article id="post-notfound" class="post-notfound page type-page status-publish hentry">
+            <header class="entry-header">
+               <h1 class="entry-title"><?php esc_html_e( 'Not Found', 'beachfire' ); ?></h1>
+            </header><!-- .entry-header -->
+            <div class="entry-content">
+                <p><?php esc_html_e( 'Nothing was found at this location. Try a search instead?', 'beachfire' ); ?></p>
+                <?php get_search_form(); ?>
+            </div><!-- .entry-content -->
+            <footer class="entry-footer">
+            </footer><!-- .entry-footer -->
+        </article><!-- #post-notfound -->
+    </main><!-- #content -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
