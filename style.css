@@ -54,6 +54,8 @@ template{display:none;}
 audio,canvas,iframe,img,svg,video{vertical-align:middle;}
 .browserupgrade{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0;}
 /* Some Standard WordPress Styles */
+.sticky{}
+.bypostauthor{}
 .wp-caption{}
 .wp-caption-text{}
 .gallery-caption{}

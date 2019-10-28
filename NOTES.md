@@ -31,3 +31,10 @@ In this document I'm trying to be accountable about what I'm chosing to do with 
 ## Translating this theme
 * Functions used (You might need them for poedit): esc_html__(), __(), esc_html_e()
 * Text Domain 'beachfire' should have been replaced with whatever your slug is
+
+## wp_body_open
+* I have added the wp_body_open() hook
+* Compatible with WP < 5.2
+
+## $content_width
+$content_width in functions.php is set nice and big to reduce chances of limiting picture size in weird ways before anything is known about what this theme will look like.

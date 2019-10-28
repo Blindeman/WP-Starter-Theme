@@ -11,8 +11,5 @@
     </div><!-- .entry-content -->
     <footer class="entry-footer">
             <?php edit_post_link(); ?>
-            <?php if( comments_open() || get_comments_number() ){
-                comments_template();
-            } ?>
     </footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -3,7 +3,11 @@
     <main id="content">
         <?php if( have_posts() ) : ?>
             <header class="search-header">
-                <h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'beachfire' ), get_search_query() ); ?></h1>
+                <h1 class="page-title">
+                <?php 
+                /* translators: %s: search query. */
+                printf( esc_html__( 'Search Results for: %s', 'beachfire' ), get_search_query() ); ?></h1>
+                <?php get_search_form(); ?>
             </header><!-- .search-header -->
             <?php while( have_posts() ) :
                 the_post();
