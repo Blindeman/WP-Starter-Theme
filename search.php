@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <main id="content">
+    <main id="content" class="content">
         <?php if( have_posts() ) : ?>
             <header class="search-header">
                 <h1 class="page-title">

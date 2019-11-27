@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <main id="content">
+    <main id="content" class="content">
         <article id="post-notfound" class="post-notfound page type-page status-publish hentry">
             <header class="entry-header">
                <h1 class="entry-title"><?php esc_html_e( 'Not Found', 'beachfire' ); ?></h1>
