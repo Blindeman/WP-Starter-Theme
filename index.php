@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     
-    <main id="content" class="content">
+    <main id="content" class="primary">
         <?php if( have_posts() ) :
             if( is_home() && !is_front_page() ) : ?>
                 <header class="blog-header">
