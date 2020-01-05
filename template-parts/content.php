@@ -26,7 +26,7 @@
     <footer class="entry-footer">
             <?php if( 'post' === get_post_type() ){ ?>
                 <span class="cat-link"><?php esc_html_e( 'Categories: ', 'beachfire' ); the_category( ', ' ); ?></span>
-                <?php if( has_tags() ) ?><span class="tag-link"><?php the_tags(); ?></span><?php } ?>
+                <?php if( has_tag() ) { ?><span class="tag-link"><?php the_tags(); ?></span><?php } ?>
             <?php } ?>
             <?php edit_post_link(); ?>
             <?php if( !is_single() && !post_password_required() && ( comments_open() || get_comments_number() ) ) { ?>
