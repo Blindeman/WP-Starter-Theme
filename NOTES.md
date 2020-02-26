@@ -29,7 +29,7 @@ In this document I'm trying to be accountable about what I'm chosing to do with 
 * Conversely, I have added HTML comments to indicate closing tags on main, header, footer, article and div
 
 ## Translating this theme
-* Functions used (You might need them for poedit): esc_html__(), __(), esc_html_e()
+* Functions used (You might need them for poedit): `esc_html__()`, `__()`, `esc_html_e()`
 * Text Domain 'beachfire' should have been replaced with whatever your slug is
 
 ## wp_body_open

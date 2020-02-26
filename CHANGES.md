@@ -1,3 +1,6 @@
+### 0.0.3.2 / February 26, 2020
+* Added support for a custom logo
+
 ### 0.0.3.1 / January 5, 2020
 * Fixed: Typo
 

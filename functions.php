@@ -7,6 +7,7 @@ if( !function_exists( 'beachfire_setup' ) ){
         add_theme_support( 'title-tag' );
         add_theme_support( 'automatic-feed-links' );
         add_theme_support( 'post-thumbnails' );
+        add_theme_support( 'custom-logo' );
         add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
         register_nav_menus( array( 'main-menu' => esc_html__( 'Main Menu', 'beachfire' ) ) );
         global $content_width;

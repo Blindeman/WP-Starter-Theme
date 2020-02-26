@@ -21,6 +21,11 @@
             <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'beachfire' ); ?></a>
             <header id="masthead" class="site-header">
                 <div class="site-branding">
+                	<?php if( function_exists( 'the_custom_logo' ) ) {
+            			if( has_custom_logo() ){
+            				the_custom_logo();
+            			}
+					}?>
                     <?php if ( is_front_page() && is_home() ) { ?>
                 	<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
                     <?php }	else { ?>
