@@ -1,3 +1,6 @@
+### 0.0.4 / May 26, 2020
+* Added support for the Gutenberg editor and responsive embeds
+
 ### 0.0.3.2 / February 26, 2020
 * Added support for a custom logo
 

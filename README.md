@@ -1,8 +1,8 @@
 # WP Starter Theme: Beachfire
 Lean and flexible starter theme for WordPress, based on / inspired by [`H5BP`](https://github.com/h5bp/html5-boilerplate/tree/v7.2.0), [`_s`](https://github.com/Automattic/_s) and [`BlankSlate`](https://github.com/tidythemes/blankslate).
 
-Tested up to: 5.3.2
-Stable tag: 0.0.3.2
+Tested up to: 5.4.1
+Stable tag: 0.0.4
 
 
 ## License
@@ -23,6 +23,9 @@ Also see NOTES.md!
 
 
 ## Changelog
+
+### 0.0.4 / May 26, 2020
+* Added support for the Gutenberg editor and responsive embeds
 
 ### 0.0.3.2 / February 26, 2020
 * Added support for a custom logo
