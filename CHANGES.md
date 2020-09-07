@@ -1,3 +1,6 @@
+### 0.0.5 / September 7, 2020
+* Added `the_posts_pagination()` as option for archives etc
+
 ### 0.0.4 / May 26, 2020
 * Added support for the Gutenberg editor and responsive embeds
 

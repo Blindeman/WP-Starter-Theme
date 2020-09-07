@@ -1,8 +1,8 @@
 # WP Starter Theme: Beachfire
 Lean and flexible starter theme for WordPress, based on / inspired by [`H5BP`](https://github.com/h5bp/html5-boilerplate/tree/v7.2.0), [`_s`](https://github.com/Automattic/_s) and [`BlankSlate`](https://github.com/tidythemes/blankslate).
 
-Tested up to: 5.4.1
-Stable tag: 0.0.4
+Tested up to: 5.5.1
+Stable tag: 0.0.5
 
 
 ## License
@@ -23,6 +23,8 @@ Also see NOTES.md!
 
 
 ## Changelog
+### 0.0.5 / September 7, 2020
+* Added `the_posts_pagination()` as option for archives etc
 
 ### 0.0.4 / May 26, 2020
 * Added support for the Gutenberg editor and responsive embeds
